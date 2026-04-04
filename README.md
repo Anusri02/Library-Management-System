@@ -20,5 +20,3 @@ This is a Library Management System developed using Java Swing and MySQL.
 2. Configure MySQL database
 3. Run Login.java file
 
-## 👩‍💻 Author
-Bala Anu Sri Koyya
