@@ -1,5 +1,4 @@
-package LibraryManagement;
-
+package ui;
 import javax.swing.*;
 import javax.swing.table.DefaultTableModel;
 import java.awt.*;
@@ -125,22 +124,19 @@ public class StudentManagement {
     }
 
     // ===== Add Student =====
-    private void addStudent() {
-        try (Connection conn = getConnection();
-             PreparedStatement ps = conn.prepareStatement(
-                 "INSERT INTO students (id, name, course, email, phone) VALUES (?,?,?,?,?)")) {
-            ps.setString(1, txtStudentId.getText());
-            ps.setString(2, txtStudentName.getText());
-            ps.setString(3, txtCourse.getText());
-            ps.setString(4, txtEmail.getText());
-            ps.setString(5, txtPhone.getText());
-            ps.executeUpdate();
-            loadStudentsFromDB(role);
-            clearFields();
-        } catch (SQLException e) {
-            JOptionPane.showMessageDialog(panel, "Error adding student: " + e.getMessage());
-        }
-    }
+   private void addStudent() {
+
+    new service.StudentService().addStudent(
+        txtStudentId.getText(),
+        txtStudentName.getText(),
+        txtCourse.getText(),
+        txtEmail.getText(),
+        txtPhone.getText()
+    );
+
+    loadStudentsFromDB(role);
+    clearFields();
+}
 
     // ===== Update Student =====
     private void updateStudent() {
@@ -259,4 +255,5 @@ public static void main(String[] args) {
     frame.add(new StudentManagement("faculty").getPanel()); // try "faculty" or "student"
     frame.setVisible(true);
 }
-}
+}    
+
