@@ -5,18 +5,9 @@
         <group>
             <file>file:/C:/Users/Anu%20Sri%20Koyya/OneDrive/Videos/Documents/NetBeansProjects/LibraryFinal/src/util/DBConnection.java</file>
             <file>file:/C:/Users/Anu%20Sri%20Koyya/OneDrive/Videos/Documents/NetBeansProjects/LibraryFinal/src/ui/Login.java</file>
-            <file>file:/C:/Users/Anu%20Sri%20Koyya/OneDrive/Videos/Documents/NetBeansProjects/LibraryFinal/src/ui/Dashboard.java</file>
             <file>file:/C:/Users/Anu%20Sri%20Koyya/OneDrive/Videos/Documents/NetBeansProjects/LibraryFinal/src/ui/StudentManagement.java</file>
-            <file>file:/C:/Users/Anu%20Sri%20Koyya/OneDrive/Videos/Documents/NetBeansProjects/LibraryFinal/src/ui/BookManagement.java</file>
             <file>file:/C:/Users/Anu%20Sri%20Koyya/OneDrive/Videos/Documents/NetBeansProjects/LibraryFinal/src/ui/IssueManagement.java</file>
             <file>file:/C:/Users/Anu%20Sri%20Koyya/OneDrive/Videos/Documents/NetBeansProjects/LibraryFinal/src/ui/ReturnManagement.java</file>
-            <file>file:/C:/Users/Anu%20Sri%20Koyya/OneDrive/Videos/Documents/NetBeansProjects/LibraryFinal/src/ui/ActivityLog.java</file>
-            <file>file:/C:/Users/Anu%20Sri%20Koyya/OneDrive/Videos/Documents/NetBeansProjects/LibraryFinal/src/model/student.java</file>
-            <file>file:/C:/Users/Anu%20Sri%20Koyya/OneDrive/Videos/Documents/NetBeansProjects/LibraryFinal/src/model/Book.java</file>
-            <file>file:/C:/Users/Anu%20Sri%20Koyya/OneDrive/Videos/Documents/NetBeansProjects/LibraryFinal/src/dao/StudentDAO.java</file>
-            <file>file:/C:/Users/Anu%20Sri%20Koyya/OneDrive/Videos/Documents/NetBeansProjects/LibraryFinal/src/dao/BookDAO.java</file>
-            <file>file:/C:/Users/Anu%20Sri%20Koyya/OneDrive/Videos/Documents/NetBeansProjects/LibraryFinal/src/service/StudentService.java</file>
-            <file>file:/C:/Users/Anu%20Sri%20Koyya/OneDrive/Videos/Documents/NetBeansProjects/LibraryFinal/src/service/BookService.java</file>
             <file>file:/C:/Users/Anu%20Sri%20Koyya/OneDrive/Videos/Documents/NetBeansProjects/LibraryFinal/src/ui/StudentBookView.java</file>
         </group>
     </open-files>
